@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appcad.HelloController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="306.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TableView fx:id="tbviewcid" layoutX="88.0" layoutY="131.0" prefHeight="196.0" prefWidth="443.0">
+              <columns>
+                <TableColumn fx:id="codigo" prefWidth="75.0" text="Código" />
+                <TableColumn fx:id="descricao" prefWidth="211.199951171875" text="Descrição" />
+                  <TableColumn fx:id="coduf" minWidth="0.0" prefWidth="84.79998779296875" text="CodUf" />
+                  <TableColumn fx:id="uf" prefWidth="45.5999755859375" text="Uf" />
+              </columns>
+            </TableView>
+            <Button fx:id="btnabrir" layoutX="88.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnabrir_click" text="Abrir " />
+            <TextField fx:id="txtlogin" layoutX="88.0" layoutY="41.0" promptText="Digite o usuário" />
+            <PasswordField fx:id="txtsenha" layoutX="88.0" layoutY="79.0" />
+      </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+    </AnchorPane>
+  </children>
+</VBox>
