@@ -5,7 +5,7 @@ public class Cidade {
     private String descricao;
     private int coduf;
     private String uf;
-    //PLUBLICANDO.
+    //PLUBLICANDO. no git
     public Cidade(int codigo, String descricao, int coduf, String uf) {
         this.codigo = codigo;
         this.descricao = descricao;
